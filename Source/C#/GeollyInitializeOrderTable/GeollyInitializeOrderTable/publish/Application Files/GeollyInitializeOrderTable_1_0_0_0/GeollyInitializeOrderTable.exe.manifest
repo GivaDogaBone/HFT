@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GeollyInitializeOrderTable.exe" version="1.0.0.0" publicKeyToken="cb29eb2ad81aeba6" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GeollyInitializeOrderTable" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GeollyInitializeOrderTable.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GeollyInitializeOrderTable.exe" size="8704">
+      <assemblyIdentity name="GeollyInitializeOrderTable" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BKau3OFyxhhM8FbXf/Rs8ClvxGo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Bson.dll" size="382976">
+      <assemblyIdentity name="MongoDB.Bson" version="1.9.2.235" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>d6Pft7WXzhVRPIS+mwOTUddy9eE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Driver.dll" size="559616">
+      <assemblyIdentity name="MongoDB.Driver" version="1.9.2.235" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xVaJMtv3FjeDawmyXWntv12rsF8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=WIN-PO8MFE6Q726\Administrator" issuerKeyHash="4b01c1512d29ebed650f076a93dca1bff4649559" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HCg6jvfxKsLoZiMw9ccU1q+bXL4=</DigestValue></Reference></SignedInfo><SignatureValue>BVNTJFLZqPXqTqvAk431ly3RHjviw9wByQSYaqXeF502dPdQ3tQ+cclvNlGDnd+pZGw13nJIfKNJhHelQmWk+WV/OwSyVV4fXxKDi27r8/QVyT1PX5qUL4luBQMJ1ZUIqQu+W88uU3QEc5DX3vmXVW8AS3JdtF+CEBC3mzchocA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xrJEuyr1cBPCmvmdi3uXQBIVFZTT3YMYkVdBFa6OUzik/4aiAuVu3kK2sZ48TANqUl+kWxg2shoo5iJONBM1ygi/du4rXAK2AK5yo7xfKk4TgcfYZt/Q2/JT+CWNzqk6Cpr+HpgOKtQl4mjVjn5sj6N5Fm0XF1Tm93XLv8tpLQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="be5c9bafd614c7f5302366e8c22af1f78e3a281c" Description="" Url=""><as:assemblyIdentity name="GeollyInitializeOrderTable.exe" version="1.0.0.0" publicKeyToken="cb29eb2ad81aeba6" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-PO8MFE6Q726\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZTgbvSxRi89ZmUYa+gzgUekUfvU=</DigestValue></Reference></SignedInfo><SignatureValue>Pwmxz8hAb5kwU9NYKNZtBnRqZluFk8W4aoKDGL6Ji3j5ldhraTN6Lei0JyjKwS/CGVD3/diKJ4vQDPkNITIAvDBrRI5v3B8nDISlRITQlF4FUrgE1CXuxpO2m2vJG1FldlmgBUV5/zWKCuD/69tCh6VZIJ6upn7jgpffxT6KGfw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xrJEuyr1cBPCmvmdi3uXQBIVFZTT3YMYkVdBFa6OUzik/4aiAuVu3kK2sZ48TANqUl+kWxg2shoo5iJONBM1ygi/du4rXAK2AK5yo7xfKk4TgcfYZt/Q2/JT+CWNzqk6Cpr+HpgOKtQl4mjVjn5sj6N5Fm0XF1Tm93XLv8tpLQ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQRzp2QwLwtJhA4PY6OtBKoTANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQBQAE8AOABNAEYARQA2AFEANwAyADYAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE0MTExNTA4MzAxNloXDTE1MTExNTE0MzAxNlowRTFDMEEGA1UEAx46AFcASQBOAC0AUABPADgATQBGAEUANgBRADcAMgA2AFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxrJEuyr1cBPCmvmdi3uXQBIVFZTT3YMYkVdBFa6OUzik/4aiAuVu3kK2sZ48TANqUl+kWxg2shoo5iJONBM1ygi/du4rXAK2AK5yo7xfKk4TgcfYZt/Q2/JT+CWNzqk6Cpr+HpgOKtQl4mjVjn5sj6N5Fm0XF1Tm93XLv8tpLQ0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCFs7uKXa2opDEpkAyy7YZE5HTN/6Zt2CMUC6TBYyPluS8WYikq85Y3jB/pcG+7096Bu/DHUJbC2WUlpahXIwtLM/dE6hAWw1lGQiRASVcQzv8ubbWaAQpZWKAOUC7f3sTEoX856U6QkjQeGp/JcKJZwKU8E8a3LOgDf813H9E1bg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

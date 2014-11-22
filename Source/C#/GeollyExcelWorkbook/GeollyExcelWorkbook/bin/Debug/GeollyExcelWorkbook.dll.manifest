@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GeollyExcelWorkbook.dll" version="1.0.0.0" publicKeyToken="02e9625f16a40306" language="neutral" processorArchitecture="x86" type="win32" />
+  <description xmlns="urn:schemas-microsoft-com:asm.v1">GeollyExcelWorkbook</description>
+  <application />
+  <entryPoint>
+    <co.v1:customHostSpecified />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Excel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GeollyExcelWorkbook.dll" size="41472">
+      <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0lWdFeGPxBUnIcAWIOhE7TiSMII=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Common.v4.0.Utilities.dll" size="32664">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Excel.v4.0.Utilities.dll" size="236952">
+      <assemblyIdentity name="Microsoft.Office.Tools.Excel.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>z3U61dJ85kEXnaWO4zChIMDZm9M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Bson.dll" size="382976">
+      <assemblyIdentity name="MongoDB.Bson" version="1.9.2.235" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>d6Pft7WXzhVRPIS+mwOTUddy9eE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Driver.dll" size="559616">
+      <assemblyIdentity name="MongoDB.Driver" version="1.9.2.235" publicKeyToken="F686731CFB9CC103" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xVaJMtv3FjeDawmyXWntv12rsF8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
+    <vstav3:entryPointsCollection>
+      <vstav3:entryPoints>
+        <vstav3:entryPoint class="GeollyExcelWorkbook.ThisWorkbook">
+          <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GeollyExcelWorkbook.Sheet2">
+          <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GeollyExcelWorkbook.Tabelle1">
+          <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GeollyExcelWorkbook.Tabelle2">
+          <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GeollyExcelWorkbook.Sheet1">
+          <assemblyIdentity name="GeollyExcelWorkbook" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+        </vstav3:entryPoint>
+      </vstav3:entryPoints>
+    </vstav3:entryPointsCollection>
+    <vstav3:update enabled="true">
+      <vstav3:expiration maximumAge="7" unit="days" />
+    </vstav3:update>
+    <vstav3:application>
+      <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
+        <vstov4:customization>
+          <vstov4:document solutionId="e2da51bc-7dd2-4268-b72b-fce30e9a5149" />
+        </vstov4:customization>
+      </vstov4:customizations>
+    </vstav3:application>
+  </vstav3:addIn>
+<publisherIdentity name="CN=ELLY\Elly" issuerKeyHash="6ea551d0b50e96bd235133ae344b94b2be245b40" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RtvzwmyTGADEsKZi4Qhbv/spNxk=</DigestValue></Reference></SignedInfo><SignatureValue>flkApCwwyjRxm6YfJUTgu1uAfRKYFRt90gTWYS0Sc40KlRzvaTqSVT1e2eci1IDk4Y70nzRtMEWOVuAk6FEzUsAMKneVuaa+JmhwG7m8m3HvYM5vbzS/dleT5tsE5/y/En46EaJPiJd3k1cTMpUaxFsYnj9LsOF95WC3FqMxLnU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yWH+XfPLxoJ/yY+9OVoXvaI/VAUX+IbnqBIGjYJLQulYj6s9aF0VhT3+KIBEPrdeqATRN0syYIk1lquTSilFmgjpNKYeN5PsrkTtYZ9UbnMVtyWLlm8Zhq8HUjykUY+Gatl+qECXFi62zsCXC9+kLC8bitN3JebMsiqHx2HIMjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="193729fbbf5b08e162a6b0c40018936cc2f3db46" Description="" Url=""><as:assemblyIdentity name="GeollyExcelWorkbook.dll" version="1.0.0.0" publicKeyToken="02e9625f16a40306" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ELLY\Elly</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4D6bA+gkgPtgY0b60lvTpDTXe0w=</DigestValue></Reference></SignedInfo><SignatureValue>tiCNxF/CB9/C1tmCl7c5GzAWzEtJChFEtBoYkuIPqsIZl4TTpWcC4/baX2Nir5RkDwQOaWpcHJ4RFJAn3uLlQxmiPJFRR3YQ9DlDxJYIerAoBQv6xpwzEq5OU8YRZLVpnZQolpd5n3dGRnItPhereGeAsFlS1TpUF+QiKamjOmI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yWH+XfPLxoJ/yY+9OVoXvaI/VAUX+IbnqBIGjYJLQulYj6s9aF0VhT3+KIBEPrdeqATRN0syYIk1lquTSilFmgjpNKYeN5PsrkTtYZ9UbnMVtyWLlm8Zhq8HUjykUY+Gatl+qECXFi62zsCXC9+kLC8bitN3JebMsiqHx2HIMjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQFQ5A9i0hNrBFex54NT1jLjANBgkqhkiG9w0BAQUFADAdMRswGQYDVQQDHhIARQBMAEwAWQBcAEUAbABsAHkwHhcNMTQxMDAxMDgzODM0WhcNMTUxMDAxMTQzODM0WjAdMRswGQYDVQQDHhIARQBMAEwAWQBcAEUAbABsAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMlh/l3zy8aCf8mPvTlaF72iP1QFF/iG56gSBo2CS0LpWI+rPWhdFYU9/iiARD63XqgE0TdLMmCJNZark0opRZoI6TSmHjeT7K5E7WGfVG5zFbcli5ZvGYavB1I8pFGPhmrZfqhAlxYuts7AlwvfpCwvG4rTdyXmzLIqh8dhyDI3AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAHdxLqsf5waLnfximNM+VGC6kjvH4gut42qXDxmwFwPHqm3LhRwcd8lNjV/OZX+oothcNBcbu0dwmn7a58Cvv68KScpW86vBPVSnkzV/6kayQpMnt36Htmv/hdyKkskJtDF8mpu5mnP3GuiypR2XyJvZG17XEIlNpWS1rGd8ObXk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
